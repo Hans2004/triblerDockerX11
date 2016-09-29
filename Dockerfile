@@ -8,7 +8,7 @@
 #                 -v $HOME/.Tribler:/root/.Tribler \
 #                 --volume="$HOME/.Xauthority:/root/.Xauthority:rw" \
 #                 --name "triblerx11" \
-#                 ubuntu:15.10 /bin/bash
+#                 triblerx11 /bin/bash
 
 # 
 # After quitting the container, it can be re-attached with: docker restart triblerx11
