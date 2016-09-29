@@ -6,5 +6,5 @@ docker run -ti 	--net=host \
 		-v $HOME/.Tribler:/root/.Tribler \
 		--volume="$HOME/.Xauthority:/root/.Xauthority:rw" \
 		--name "triblerx11" \
-		pipo2004/triblerx11 /usr/bin/tribler
+		triblerx11 /usr/bin/tribler
 
